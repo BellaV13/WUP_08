@@ -41,6 +41,12 @@ abline(simpAGE)
 summary.lm(simpAGE)
 ```
 
+```{r}
+simpHEADWTH <- lm(LENGTH~HEADWTH, data=bears)
+plot(LENGTH~HEADWTH, data=bears)
+abline(simpHEADWTH)
+summary.lm(simpHEADWTH)
+```
 
 
 
