@@ -48,6 +48,12 @@ abline(simpHEADWTH)
 summary.lm(simpHEADWTH)
 ```
 
+```{r}
+simpCHEST <- lm(LENGTH~CHEST,data=bears)
+plot(LENGTH~CHEST,data=bears)
+abline(simpCHEST)
+summary.lm(simpCHEST)
+```
 
 
 
