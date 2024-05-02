@@ -55,6 +55,12 @@ abline(simpCHEST)
 summary.lm(simpCHEST)
 ```
 
+```{r}
+simpWEIGHT <- lm(LENGTH~WEIGHT,data=bears)
+plot(LENGTH~WEIGHT,data=bears)
+abline(simpWEIGHT)
+summary.lm(simpWEIGHT)
+```
 
 
 
